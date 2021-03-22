@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+h1{
+    text-align: center;
+}
+
+#message {
+    visibility: hidden;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+thead th {
+    background: gray;
+    font-size: 1.2em;
+}
+
+tbody td{
+    padding: 6px 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+/* BONUS */
+/* Add style to your work */
